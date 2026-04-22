@@ -1,9 +1,22 @@
+# TTS Voice Generator
 
-A lightweight Python project that converts text into speech using Google Text-to-Speech (gTTS).
+A Python-based text-to-speech (TTS) CLI tool supporting both:
 
- Future Scope
-	•	Add web interface (Flask/Streamlit)
-	•	Voice speed & accent control
-	•	Integrate with AI text generation
+- gTTS (online, high-quality voices)
+- pyttsx3 (offline, fast execution)
 
-Simple, fast, and a solid base for building voice-enabled AI applications.
+## Features
+- Convert text to speech instantly
+- Offline + online TTS support
+- Cross-platform (macOS tested)
+- Simple CLI interface
+
+## Tech Stack
+- Python
+- gTTS
+- pyttsx3
+
+## Usage
+
+```bash
+python main.py
