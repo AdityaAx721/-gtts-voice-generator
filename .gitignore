@@ -8,6 +8,7 @@ __pycache__/
 # Output files
 output/
 *.mp3
+*.aiff
 
 # Config / local files
 .python-version
